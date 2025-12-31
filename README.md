@@ -16,8 +16,6 @@ Intended for informational and accessibility purposes.
 
 Always comply with the game’s terms of service.
 
----
-
 ## Special Thanks
 
 - Kamille for providing POI data.
@@ -39,8 +37,6 @@ Always comply with the game’s terms of service.
 - Soft hide POIs per category
 - Fully portable single exe build
 
----
-
 ## How It Works
 
 The overlay loads map POI data from JSON files and projects them onto a configurable screen rectangle.  
@@ -49,7 +45,6 @@ Coordinates are converted from Hunt’s 4096x4096 map grid into normalized scree
 The overlay does not modify game files, inject into the game, or hook any game process.  
 It runs as a separate window layered above the game.
 
----
 
 ## File Storage
 
@@ -70,7 +65,6 @@ This folder contains:
 
 All edits made to these files persist across restarts and updates.
 
----
 
 ## Controls
 
@@ -88,8 +82,6 @@ Hide overlay
 1 2 3 4  
 Switch maps if enabled in the control panel
 
-POI Interaction
-
 Ctrl + Alt + Shift + Delete  
 Hide the POI currently under the mouse
 
@@ -98,7 +90,6 @@ It only hides the POI for the category it was hidden from.
 It does not delete data from JSON files.  
 Hidden state is saved in configuration.
 
----
 
 ## Control Panel
 
@@ -112,8 +103,6 @@ The control panel allows you to:
 - View hotkey instructions
 
 The panel stays on top and does not interfere with gameplay.
-
----
 
 ## Global POI Scaling
 
@@ -164,7 +153,6 @@ dist\HuntOverlay.exe
 
 You only need to use this file.
 
----
 
 ## Windows SmartScreen Warning
 
@@ -176,10 +164,8 @@ Click:
 
 More info -> Run anyway
 
-To remove this warning permanently, the executable must be code signed with a trusted certificate.
+To remove this warning permanently, the executable must be code signed with a trusted certificate. Which I am not gonna do sorry.
 
-
----
 
 ## License
 
